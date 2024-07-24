@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "06ac9d4e-feb3-495f-97ba-5e3066b10bcd",
+		"name": "nodejs-filesystem",
+		"description": "NodeJS File System Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35985218"
+	},
+	"item": [
+		{
+			"name": "Create New File",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/newFile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"newFile"
+					]
+				},
+				"description": "On requesting this API endpoint, a new file will be created with 'date-time.txt' as file name and 'current timestamp' as content inside the file."
+			},
+			"response": []
+		},
+		{
+			"name": "Read Files",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getFiles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getFiles"
+					]
+				},
+				"description": "On requesting this API endpoint, the files names inside the folder will be the response."
+			},
+			"response": []
+		}
+	]
+}
