@@ -13,12 +13,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/newFile",
-					"protocol": "http",
+					"raw": "https://nodejs-filesystem-erhx.onrender.com/newFile",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"nodejs-filesystem-erhx",
+						"onrender",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"newFile"
 					]
@@ -33,12 +34,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/getFiles",
-					"protocol": "http",
+					"raw": "https://nodejs-filesystem-erhx.onrender.com/getFiles",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"nodejs-filesystem-erhx",
+						"onrender",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"getFiles"
 					]
